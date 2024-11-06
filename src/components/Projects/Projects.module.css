@@ -46,3 +46,12 @@
   gap: 25px;
   width: 100%;
 }
+
+@media screen and (max-width:830px) {
+  .title{
+    font-size: 20px;
+  }
+  .github{
+    font-size: 20px;
+  }
+}

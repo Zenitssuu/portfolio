@@ -82,6 +82,11 @@
     width: 100%;
     justify-content: flex-start;
   }
+  .language{
+    /* border: 1px solid red; */
+    width: 90%;
+    flex-wrap: wrap;
+  }
 }
 
 

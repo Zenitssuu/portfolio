@@ -108,6 +108,9 @@
     flex-direction: column-reverse;
     margin-bottom: 50px;
   }
+  .heroImg{
+    width: 75%;
+  }
 
   .content {
     align-items: center;
