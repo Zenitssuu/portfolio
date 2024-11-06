@@ -6,7 +6,7 @@ import { Projects } from "./components/Projects/Projects.jsx";
 import { Experience } from "./components/Experience/Experience.jsx";
 import { Contact } from "./components/Contact/Contact.jsx";
 import { About } from "./components/About/About.jsx";
-import {Skills} from "./components/Skills/skills.jsx";
+import {Skills} from "./components/Skills/Skills.jsx";
 
 
 const router = createBrowserRouter(
