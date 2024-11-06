@@ -12,7 +12,7 @@ export const Hero = () => {
         <p className={styles.description}>
         A passionate developer with a strong foundation in problem-solving and a quick learner, driven to create impactful, user-focused solutions in dynamic tech environments.
         </p>
-        <Link to="mailto:sidxaiba2703@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.contactBtn}>
+        <Link to="https://drive.google.com/file/d/1bjB7egpF4MWV9AbBKVTRZQ14T4QvZgCX/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.contactBtn}>
           Resume
         </Link>
       </div>
