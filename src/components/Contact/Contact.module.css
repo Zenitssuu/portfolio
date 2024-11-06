@@ -6,10 +6,12 @@
   background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 20vh auto;
   padding: 58px 10%;
   gap: 10px;
+  border-radius: 20px;
 }
 
 .text h2 {
@@ -36,9 +38,15 @@
   display: flex;
   align-items: center;
   gap: 25px;
+  transition: all 0.5s ease-in-out;
 }
 
-.link a {
+.link:hover{
+  text-decoration: underline;
+  text-underline-offset:10px; 
+}
+
+.link .url{
   color: var(--color-text);
   text-decoration: none;
   font-size: 30px;

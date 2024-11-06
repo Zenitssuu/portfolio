@@ -28,19 +28,71 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <NavLink to="/skills">Skills</NavLink>
+            <NavLink
+              style={({ isActive }) => {
+                return {
+                  textDecoration: isActive ?  "underline" : "none",
+                  textUnderlineOffset: isActive ? "10px" : "0",
+                };
+              }}
+              to="/skills"
+            >
+              Skills
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/projects">Projects</NavLink>
+            <NavLink
+              style={({ isActive }) => {
+                return {
+                  // fontWeight: isActive ? "bold" : "",
+                  // color: isActive ? "red" : "black",
+                  textDecoration: isActive ? "underline" : "none",
+                  textUnderlineOffset: isActive ? "10px" : "0",
+                };
+              }}
+              to="/projects"
+            >
+              Projects
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/experience">Experience</NavLink>
+            <NavLink
+              style={({ isActive }) => {
+                return {
+                  textDecoration: isActive ? "underline" : "none",
+                  textUnderlineOffset: isActive ? "10px" : "0",
+                };
+              }}
+              to="/experience"
+            >
+              Experience
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink
+              style={({ isActive }) => {
+                return {
+                  textDecoration: isActive ? "underline" : "none",
+                  textUnderlineOffset: isActive ? "10px" : "0",
+                };
+              }}
+              to="/about"
+            >
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink
+              style={({ isActive }) => {
+                return {
+                  textDecoration: isActive ? "underline" : "none",
+                  textUnderlineOffset: isActive ? "10px" : "0",
+                };
+              }}
+              to="/contact"
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>
